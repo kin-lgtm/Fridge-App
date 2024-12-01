@@ -1,0 +1,49 @@
+.list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  
+    .table-wrapper {
+      overflow-x: auto;
+  
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+          padding: 10px;
+          border: 1px solid #ddd;
+          text-align: left;
+        }
+  
+        th {
+          background-color: #f4f4f4;
+        }
+  
+        tr:hover {
+          background-color: #f9f9f9;
+        }
+  
+        button {
+          background-color: #dc3545;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 4px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+      }
+    }
+  }
+  

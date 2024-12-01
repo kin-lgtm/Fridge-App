@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.bottom-container {
+  background-color:rgb(217, 228, 243); /* Light blue color */
+  padding: 30px;
+}
