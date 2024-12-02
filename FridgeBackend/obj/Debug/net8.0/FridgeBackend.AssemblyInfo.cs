@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FridgeBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f093c6e23160857316603f05da15a5cf68f32527")]
 [assembly: System.Reflection.AssemblyProductAttribute("FridgeBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FridgeBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

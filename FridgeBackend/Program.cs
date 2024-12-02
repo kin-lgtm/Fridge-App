@@ -9,9 +9,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://192.168.1.4:3000") 
+        policy.WithOrigins("http://localhost:3000") 
               .AllowAnyMethod() 
               .AllowAnyHeader();
     });
@@ -20,11 +20,11 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseCors("AllowAllOrigins");
+app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
 
 // Bind to all network interfaces
-app.Urls.Add("http://0.0.0.0:5000");
+app.Urls.Add("http://localhost:5000");
 
 app.Run();

@@ -36,7 +36,7 @@ const FridgeList = ({ items, fetchItems }) => {
       <div className="flex justify-between mb-4">
         <span className="text-gray-600 mx-auto">Total items — {items.length}</span>
       </div>
-        <table className="w-[1000px] mx-auto border-separate" style={{ borderSpacing: "0 10px" }}>
+        <table className="w-[800px] mx-auto border-separate" style={{ borderSpacing: "0 10px" }}>
           <tbody>
             {items.length > 0 ? (
               items.map((item) => {

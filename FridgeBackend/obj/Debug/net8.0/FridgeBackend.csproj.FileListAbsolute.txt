@@ -169,3 +169,4 @@ D:\fridge-app\FridgeBackend\obj\Debug\net8.0\FridgeBackend.genruntimeconfig.cach
 D:\fridge-app\FridgeBackend\obj\Debug\net8.0\ref\FridgeBackend.dll
 D:\fridge-app\FridgeBackend\bin\Debug\net8.0\MySqlConnector.dll
 D:\fridge-app\FridgeBackend\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\fridge-app\FridgeBackend\obj\Debug\net8.0\FridgeBackend.sourcelink.json
