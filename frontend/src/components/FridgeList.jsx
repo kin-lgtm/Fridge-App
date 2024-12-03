@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { FaTrash } from "react-icons/fa";
 
+
 const FridgeList = ({ items, fetchItems }) => {
   // Function to delete an item
   const deleteItem = async (id) => {
@@ -33,10 +34,10 @@ const FridgeList = ({ items, fetchItems }) => {
     <div className="mt-6">
       
       <div className="overflow-x-auto">
-      <div className="flex justify-between mb-4">
+      <div className="flex justify-between mb-2 ml-[600px] font-semibold">
         <span className="text-gray-600 mx-auto">Total items — {items.length}</span>
       </div>
-        <table className="w-[800px] mx-auto border-separate" style={{ borderSpacing: "0 10px" }}>
+        <table className="w-[720px] mx-auto border-separate" style={{ borderSpacing: "0 10px" }}>
           <tbody>
             {items.length > 0 ? (
               items.map((item) => {
@@ -47,7 +48,7 @@ const FridgeList = ({ items, fetchItems }) => {
                       {item.name}
                     </td>
                     <td className="text-gray-600 px-4 py-2">
-                      <span className="">Expiry Date: </span>
+                      <span className="">Expiry Date -- </span>
                       {new Date(item.expiryDate).toLocaleDateString()}
                     </td>
                     <td className="px-4 py-2">

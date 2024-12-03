@@ -6,7 +6,7 @@ const api = axios.create({
 
 export const getFridgeItems = async () => {
   try {
-    const response = await api.get('/');
+    const response = await api.get('/');                          
     return response.data;
   } catch (error) {
     console.error('Error fetching fridge items:', error);

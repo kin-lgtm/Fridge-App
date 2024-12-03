@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+
 const FridgeForm = ({ fetchItems }) => {
   const [name, setName] = useState("");
   const [expiryDate, setExpiryDate] = useState("");
@@ -50,7 +51,7 @@ const FridgeForm = ({ fetchItems }) => {
         </p>
       </div>
 
-      <div className="bg-white rounded-lg shadow-xl p-6">
+      <div className="bg-white rounded-lg shadow-xl p-6 w">
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 items-end">
           {/* Name Input */}
           <div className="flex-1">
